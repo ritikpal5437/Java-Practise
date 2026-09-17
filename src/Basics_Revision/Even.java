@@ -2,7 +2,7 @@ package Basics_Revision;
 
 public class Even {
     public static void main (String[] args){
-       int n=0;
+
        for(int i=1;i<=50;i++) {
            if (i % 2 == 0) {
                System.out.println(i);
