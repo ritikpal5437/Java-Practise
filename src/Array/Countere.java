@@ -1,4 +1,4 @@
-package Array;
+
 import java.util.Scanner;
 public class Countere {
     public static void main(String[] args) {
@@ -21,8 +21,8 @@ public class Countere {
                 odd++;
             }
         }
-        System.out.println(even);
-        System.out.println(odd);
+        System.out.println("Even numbers: " + even);
+        System.out.println("Odd numbers: " + odd);
 
     }
 }
