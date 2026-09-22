@@ -7,22 +7,15 @@ class Array2D {
 
         System.out.println("Enter rows:");
         int rows = sc.nextInt();
-
         System.out.println("Enter columns:");
         int col = sc.nextInt();
-
         int[][] arr = new int[rows][col];
-
-        // Input
         System.out.println("Enter elements:");
-
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < col; j++) {
                 arr[i][j] = sc.nextInt();
             }
         }
-
-    
         System.out.println("Array:");
 
         for (int i = 0; i < rows; i++) {
@@ -32,6 +25,6 @@ class Array2D {
             System.out.println();
         }
 
-        sc.close();
+    
     }
 }
