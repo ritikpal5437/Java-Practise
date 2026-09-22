@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Array2D {
+class dcas {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
