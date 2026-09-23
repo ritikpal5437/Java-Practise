@@ -4,8 +4,7 @@ class more {
         int[] arr = {123, 123, 123, 3557, 78, 34, 78, 43, 78, 5};
         int tar = 123;
         int count = 0;
-
-        for (int i = 0; i < arr.length; i++) {
+ for (int i = 0; i < arr.length; i++) {
 
             if (arr[i] == tar) {
                 count++;
