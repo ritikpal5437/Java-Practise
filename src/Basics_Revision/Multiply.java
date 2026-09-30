@@ -1,4 +1,4 @@
-package Basics_Revision;
+// package Basics_Revision;
 import java.util.Scanner;
 public class Multiply {
     public static void main(String[] args) {
