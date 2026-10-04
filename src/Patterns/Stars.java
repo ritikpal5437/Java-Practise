@@ -5,6 +5,8 @@ public class Stars {
         pattern1(5);
 
      }
+
+     
      
       static void pattern5(int n) {
         for (int row = 1; row <= n; row++) {
