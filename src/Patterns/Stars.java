@@ -2,9 +2,36 @@
 public class Stars {
 
      public static void main(String[] args) {
-        pattern6(5);
+        pattern8(5);
 
      }
+     //spaces printing\
+       static void pattern7(int n) {
+
+            for (int row=  1; row<=n; row++) {
+                for (int space = 1; space <= n-row; space++) {
+                    System.out.print(" ");
+                    
+                }
+                for (int col = 1; col <=row; col++) {
+                    System.out.print("* ");
+            }System.out.println();
+                }
+            
+        }
+         static void pattern8(int n) {
+
+            for (int row=  1; row<=n; row++) {
+                for (int space = 1; space <= n-row; space++) {
+                    System.out.print(" ");
+                    
+                }
+                for (int col = 1; col <=2*row-1; col++) {
+                    System.out.print("*");
+            }System.out.println();
+                }
+            
+        }
         static void pattern6(int n) {
             for (int row=  1; row<= 5; row++) {
                 for (int col = 1; col <=row; col++) {
