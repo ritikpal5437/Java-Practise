@@ -2,11 +2,18 @@
 public class Stars {
 
      public static void main(String[] args) {
-        pattern1(5);
+        pattern6(5);
 
      }
+        static void pattern6(int n) {
+            for (int row=  1; row<= 5; row++) {
+                for (int col = 1; col <=row; col++) {
+                    System.out.print(row);
+            }System.out.println();
+                }
+            
+        }
 
-     
      
       static void pattern5(int n) {
         for (int row = 1; row <= n; row++) {
