@@ -6,15 +6,15 @@ Print these patterns using loops:
 
 1.  *****
     *****
-    *****
-    *****
+    *****                 for row<=n
+    *****                   for col <=row
     *****
 
 
 2.  *
     **
-    ***
-    ****
+    ***                     row<=n
+    ****                     col<=n-row+1
     *****
 
 
