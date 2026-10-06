@@ -20,7 +20,7 @@ Print these patterns using loops:
 
 3.  *****
     ****
-    ***
+    ***                  n -row 
     **
     *
 
