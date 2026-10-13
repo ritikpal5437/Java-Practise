@@ -2,7 +2,7 @@ package Recursion;
 
 public class intro {
         public static void main(String[] args) {
-            int ans=fibo(7);
+            int ans=fibo(47);
             System.out.println(ans);
 
         }
